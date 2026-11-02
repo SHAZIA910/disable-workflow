@@ -1,16 +1,16 @@
-name: Disable workflow videio
+
+     
+
+name: Disable workflow video
 
 on:
- push:
-     branches: [main]
-
+  push:
+    branches: [main]
 
 jobs:
   disable:
-  run_on: ubunto_latest 
+    runs-on: ubuntu-latest
 
-  steps:
-  -name: shazia
-  run:  echo"disable workflow video devops"
-  
-     
+    steps:
+      - name: shazia
+        run: echo "disable workflow video devops"
