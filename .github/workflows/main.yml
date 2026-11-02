@@ -1,0 +1,16 @@
+name: Disable workflow videio
+
+on:
+ push:
+     branches: [main]
+
+
+jobs:
+  disable:
+  run_on: ubunto_latest 
+
+  steps:
+  -name: shazia
+  run:  echo"disable workflow video devops"
+  
+     
